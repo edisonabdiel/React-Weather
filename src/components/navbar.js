@@ -11,7 +11,6 @@ const NavBar = () => {
 
   return (
     <nav className="dark:text-white mb-4">
-      <div className="bg-gradient-to-r from-blue-100 dark:from-black via-green-200 dark:via-transparent to-indigo-400 dark:to-gray-700 w-auto h-6"></div>
       <div className="2xl:max-w-6xl xl:max-w-4xl lg:max-w-4xl md:max-w-2xl mx-auto sm:px-6 md:px-0 lg:px-2 xl:px-0">
         <div className="relative flex items-center justify-between h-16">
           <div className="absolute inset-y-0 left-0 flex items-center justify-between md:hidden">
@@ -85,7 +84,7 @@ const NavBar = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://github.com/"
+                    href="https://github.com/edisonabdiel/React-Weather"
                     className="text-gray-400 hover:text-gray-500 transition-colors duration-200"
                   >
                     <span className="sr-only">React Weather on GitHub</span>
