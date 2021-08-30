@@ -1,8 +1,8 @@
-# react-weather [![build](https://github.com/denniskigen/react-weather/actions/workflows/validate.yml/badge.svg)](https://github.com/denniskigen/react-weather/actions/workflows/validate.yml) ![Deployment status](https://img.shields.io/github/deployments/denniskigen/react-weather/production?label=vercel&logo=vercel&logoColor=white) [![Coverage Status](https://coveralls.io/repos/github/denniskigen/react-weather/badge.svg?branch=main)](https://coveralls.io/github/denniskigen/react-weather?branch=main)
+## React Weather App
 
 A simple React weather app that displays weather information from the OpenWeatherMap API. See it live [here](https://react-weather.denniskigen.com/).
 
-![Home page](https://github.com/denniskigen/react-weather/blob/main/public/screen.png)
+![Home page](https://user-images.githubusercontent.com/43752457/131404161-aa2f2089-4416-4ad2-9241-30732f6306e5.png)
 
 ## Getting started
 
