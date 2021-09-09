@@ -5,8 +5,10 @@ import fetcher from '../lib/fetcher';
 import * as recommendations from '../recommendations';
 import * as weatherIcons from '../icons';
 
-const apiUrl = process.env.REACT_APP_API_URL;
-const apiKey = process.env.REACT_APP_API_KEY;
+// Using the actual API key is not recommended, but it's a quick and dirty way to get the weather after deployment
+
+const apiUrl = 'https://api.openweathermap.org/data/2.5'
+const apiKey = '99265f0021d4ef47d6c169924ee53e34';
 const iconPrefix = `wi wi-`;
 
 export function useWeather(endpoint, location, units) {
